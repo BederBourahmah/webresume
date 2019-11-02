@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <>
     <Navbar className="App-navbar">
-      <NavbarBrand href="/" className="App-link">Beder's Web Resume</NavbarBrand>
+      <NavbarBrand href={process.env.PUBLIC_URL} className="App-link">Beder's Web Resume</NavbarBrand>
       <Nav>
         <NavLink href={Resume} target='_blank' className="App-link">PDF Resume</NavLink>
       </Nav>
