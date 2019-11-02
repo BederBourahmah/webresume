@@ -2,7 +2,7 @@
   "name": "webresume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bederbourahmah.github.io/WebResume",
+  "homepage": "https://bederbourahmah.github.io/webresume",
   "dependencies": {
     "@types/jest": "24.0.21",
     "@types/node": "12.12.5",
