@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button, Navbar, NavbarBrand, Nav, NavLink } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavLink } from 'reactstrap';
 import Resume from "./downloadables/Resume of Beder Bourahmah.pdf";
-import logo from './logo.svg';
 import './App.css';
 
 
