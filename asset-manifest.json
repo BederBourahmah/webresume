@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/WebResume/static/css/main.505036be.chunk.css",
+    "main.js": "/WebResume/static/js/main.b27736d4.chunk.js",
+    "main.js.map": "/WebResume/static/js/main.b27736d4.chunk.js.map",
+    "runtime-main.js": "/WebResume/static/js/runtime-main.3a84822a.js",
+    "runtime-main.js.map": "/WebResume/static/js/runtime-main.3a84822a.js.map",
+    "static/css/2.833dd627.chunk.css": "/WebResume/static/css/2.833dd627.chunk.css",
+    "static/js/2.16f4c57d.chunk.js": "/WebResume/static/js/2.16f4c57d.chunk.js",
+    "static/js/2.16f4c57d.chunk.js.map": "/WebResume/static/js/2.16f4c57d.chunk.js.map",
+    "index.html": "/WebResume/index.html",
+    "precache-manifest.ffb49f3e4ae8a0014b414fcc996d8790.js": "/WebResume/precache-manifest.ffb49f3e4ae8a0014b414fcc996d8790.js",
+    "service-worker.js": "/WebResume/service-worker.js",
+    "static/css/2.833dd627.chunk.css.map": "/WebResume/static/css/2.833dd627.chunk.css.map",
+    "static/css/main.505036be.chunk.css.map": "/WebResume/static/css/main.505036be.chunk.css.map",
+    "static/media/Cover Letter of Beder Bourahmah.pdf": "/WebResume/static/media/Cover Letter of Beder Bourahmah.dd520a83.pdf",
+    "static/media/Resume of Beder Bourahmah.pdf": "/WebResume/static/media/Resume of Beder Bourahmah.5f80aed6.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a84822a.js",
+    "static/css/2.833dd627.chunk.css",
+    "static/js/2.16f4c57d.chunk.js",
+    "static/css/main.505036be.chunk.css",
+    "static/js/main.b27736d4.chunk.js"
+  ]
+}
