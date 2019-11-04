@@ -1,0 +1,23 @@
+.App-navbar {
+  background-color: 	#002B44;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
+  border-bottom: 	#006E9C 2px solid;
+}
+
+.App-dropdownMenu {
+  background-color: 	#002B44;
+  color: #EDE5CE;
+}
+
+.App-navLinks {
+  background-color: 	#002B44;
+  color: #EDE5CE;
+}
+
+.App-navLinks:hover {
+  background-color: 	#014873;
+  color: #EDE5CE;
+  text-decoration-line: none;
+}
