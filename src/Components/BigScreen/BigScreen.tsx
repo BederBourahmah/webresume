@@ -4,6 +4,7 @@ import Resume from "../../downloadables/Resume of Beder Bourahmah.pdf";
 import CoverLetter from "../../downloadables/Cover Letter of Beder Bourahmah.pdf";
 import './BigScreen.css';
 import { Link, BrowserRouter, Switch, Route, } from "react-router-dom";
+import Education from '../Education/Education';
 
 export default class BigScreen extends React.Component {
   render() {
@@ -31,7 +32,7 @@ export default class BigScreen extends React.Component {
 
       <Switch>
         <Route path="/education">
-          Education
+          <Education />
         </Route>
       </Switch>
     </BrowserRouter>
