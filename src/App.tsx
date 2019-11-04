@@ -1,9 +1,9 @@
 import React from 'react';
-import NavigationBar from "./Components/NavigationBar/NavigationBar";
+import BigScreen from "./Components/BigScreen/BigScreen";
 
 const App: React.FC = () => {
   return (
-    <NavigationBar />
+    <BigScreen />
   );
 }
 
