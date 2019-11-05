@@ -17,7 +17,7 @@ export default class Education extends React.Component {
         </Row>
         <Row className="Education-body">
           I attended Florida International University from the Fall Semester 2010 to the Spring Semester 2013. While enrolled at FIU I earned 95 credits with a cumulative GPA of 3.27.
-          I graduated in April, 2013, receiving my Bachelor of Science degree in Electrical Engineering degree.
+          I graduated in April, 2013, receiving my Bachelor of Science in Electrical Engineering degree.
         </Row>
       </Col>
         
