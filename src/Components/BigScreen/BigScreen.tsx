@@ -13,7 +13,7 @@ export default class BigScreen extends React.Component {
         <Navbar className="App-navbar">
         <Link className="App-navLinks" to={process.env.PUBLIC_URL}><NavbarBrand >Beder's Web Resume</NavbarBrand></Link>
         <Nav className="NavigationBar-items" >
-          <Link className="App-navLinks" to="/education"><NavLink>Education</NavLink></Link>
+          <Link className="App-navLinks" to={process.env.PUBLIC_URL + "/education"}><NavLink>Education</NavLink></Link>
           <UncontrolledDropdown inNavbar>
             <DropdownToggle nav caret className="App-navLinks">
               Downloads
@@ -31,7 +31,7 @@ export default class BigScreen extends React.Component {
       </Navbar>
 
       <Switch>
-        <Route path="/education">
+        <Route path={process.env.PUBLIC_URL + "/education"}>
           <Education />
         </Route>
       </Switch>
