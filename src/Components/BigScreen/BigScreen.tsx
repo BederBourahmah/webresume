@@ -20,10 +20,10 @@ export default class BigScreen extends React.Component {
             </DropdownToggle>
             <DropdownMenu right className="App-dropdownMenu">
               <DropdownItem href={Resume} target='_blank' className="App-navLinks">
-                PDF Resume
+                Resume
               </DropdownItem >
               <DropdownItem href={CoverLetter} target='_blank' className="App-navLinks">
-                PDF Cover Letter
+                Cover Letter
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
