@@ -5,6 +5,7 @@ import CoverLetter from "../../downloadables/Cover Letter of Beder Bourahmah.pdf
 import './BigScreen.css';
 import { Link, Switch, Route, HashRouter } from "react-router-dom";
 import Education from '../Education/Education';
+import Career from '../Career/Career';
 
 export default class BigScreen extends React.Component {
   render() {
@@ -14,6 +15,7 @@ export default class BigScreen extends React.Component {
         <Link className="App-navLinks" to="/"><NavbarBrand >Beder's Web Resume</NavbarBrand></Link>
         <Nav className="NavigationBar-items" >
           <Link className="App-navLinks" to="/education"><NavLink>Education</NavLink></Link>
+          <Link className="App-navLinks" to="/career"><NavLink>Career</NavLink></Link>
           <UncontrolledDropdown inNavbar>
             <DropdownToggle nav caret className="App-navLinks">
               Downloads
@@ -33,6 +35,9 @@ export default class BigScreen extends React.Component {
       <Switch>
         <Route path="/education">
           <Education />
+        </Route>
+        <Route path="/career">
+          <Career />
         </Route>
       </Switch>
     </HashRouter>
