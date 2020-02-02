@@ -27,14 +27,14 @@ export default class SmallScreen extends React.Component<any, IState> {
      return (
       <HashRouter>
         <Navbar className="App-navbar">
-          <Link className="App-navLinks navBrand" to="/">Beder's Web Resume - mobile</Link>
+          <Link className="App-navLinks navBrand" to="/">Beder's Web Resume</Link>
           <Nav className="NavigationBar-items">
             <NavbarToggler onClick={this.toggleNavMenu} className="navToggler">
               <FontAwesomeIcon icon={faBars} />
             </NavbarToggler>
             <Collapse isOpen={isNavMenuDisplayed}>
-              <NavLink className="App-navLinks" href="/#/education">Education</NavLink>
-              <NavLink className="App-navLinks" href="/#/career">Career</NavLink>
+            <Link className="App-navLinks" to="/education"><NavLink>Education</NavLink></Link>
+            <Link className="App-navLinks" to="/career"><NavLink>Career</NavLink></Link>
               <UncontrolledDropdown inNavbar>
               <DropdownToggle nav caret className="App-navLinks">
                 Downloads
