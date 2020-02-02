@@ -1,21 +1,41 @@
 import React from 'react';
-import { Navbar, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavLink, Nav } from 'reactstrap';
-import './BigScreen.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Navbar, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavLink, Nav, NavbarToggler, Collapse } from 'reactstrap';
+import './SmallScreen.css';
 import { Link, Switch, Route, HashRouter } from "react-router-dom";
 import Education from "../Education/Education";
 import Career from '../Career/Career';
 
-export default class BigScreen extends React.Component {
+
+interface IState {
+  isNavMenuDisplayed: boolean;
+}
+
+export default class SmallScreen extends React.Component<any, IState> {
+
+  public readonly state: IState = {
+    isNavMenuDisplayed: false,
+  }
+
+  private toggleNavMenu = () => {
+    this.setState((prevState: IState) => this.setState({isNavMenuDisplayed: !prevState.isNavMenuDisplayed}));
+  }
 
   render() {
+    const { isNavMenuDisplayed } = this.state;
      return (
       <HashRouter>
         <Navbar className="App-navbar">
-          <Link className="App-navLinks navBrand" to="/">Beder's Web Resume</Link>
+          <Link className="App-navLinks navBrand" to="/">Beder's Web Resume - mobile</Link>
           <Nav className="NavigationBar-items">
-            <Link className="App-navLinks" to="/education"><NavLink>Education</NavLink></Link>
-            <Link className="App-navLinks" to="/career"><NavLink>Career</NavLink></Link>
-            <UncontrolledDropdown inNavbar>
+            <NavbarToggler onClick={this.toggleNavMenu} className="navToggler">
+              <FontAwesomeIcon icon={faBars} />
+            </NavbarToggler>
+            <Collapse isOpen={isNavMenuDisplayed}>
+              <NavLink className="App-navLinks" href="/#/education">Education</NavLink>
+              <NavLink className="App-navLinks" href="/#/career">Career</NavLink>
+              <UncontrolledDropdown inNavbar>
               <DropdownToggle nav caret className="App-navLinks">
                 Downloads
               </DropdownToggle>
@@ -32,6 +52,9 @@ export default class BigScreen extends React.Component {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            </Collapse>
+            
+            
           </Nav>
         </Navbar>
 
