@@ -1,4 +1,8 @@
-html, body {
+html {
+  height: 100%;
+}
+
+body {
   display: flex;
   flex-flow: column;
   height: 100%;
@@ -10,6 +14,21 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(#29323c 80%, #485563);
   background-attachment: fixed;
+}
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background-image: linear-gradient(#29323c 80%, #485563) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 code {

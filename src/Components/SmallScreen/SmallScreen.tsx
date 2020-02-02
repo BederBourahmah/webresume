@@ -70,12 +70,14 @@ export default class SmallScreen extends React.Component<any, IState> {
               <iframe
                 src="https://onedrive.live.com/embed?cid=3170DAEDCAD61BF4&resid=3170DAEDCAD61BF4%214244&authkey=AHEOa37xX3ovqXA&em=2"
                 className="oneDriveDoc"
+                title="resume"
               />
             </Route>
             <Route path="/cover_letter">
             <iframe
               src="https://onedrive.live.com/embed?cid=3170DAEDCAD61BF4&resid=3170DAEDCAD61BF4%214246&authkey=AH_hdkvTb38JJgQ&em=2"
               className="oneDriveDoc"
+              title="cover_letter"
               ></iframe>
             </Route>
           </div>
