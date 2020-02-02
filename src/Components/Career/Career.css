@@ -2,7 +2,7 @@
 
 .careerMainBox {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
   height: 100%;
 }
@@ -10,15 +10,9 @@
 .careerLogos {
   display: flex;
   flex-direction: row;
-  margin: 1% auto auto auto;
+  margin: 1% auto 1% auto;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 100%;
-  align-items: center;
-}
-
-.border {
-  border-style: solid;
 }
 
 .logoLink {
