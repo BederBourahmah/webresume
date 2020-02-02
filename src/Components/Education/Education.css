@@ -1,13 +1,28 @@
-.Education-header {
-  background-color: 	#002B44;
+.Education-body {
   color: #EDE5CE;
-  font-size: x-large;
-  padding-left: 1%;
+  font-size: 1.2rem;
+  padding-top: 2%;
 }
 
-.Education-body {
-  background-color: 	#002B44;
-  color: #EDE5CE;
-  font-size: large;
-  padding-left: 1%;
+.educationMainBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.educationBox {
+  flex-direction: column;
+  width: 45%;
+  min-width: 300px;
+  margin: auto;
+  padding: 1%;
 }
