@@ -141,7 +141,7 @@ export default class Career extends React.Component<any, IState> {
                   Associate Software Engineer - January 2020 to present
                 </p>
                 <Collapse className="careerJobResponsibilities" isOpen={this.state.isSoftwareEngineerOpen}>
-                  I applied, interviewed, and was accepted for an opening the FAD team for a software engineer.
+                  I applied, interviewed, and was accepted for an opening in the FAD team for a software engineer.
                   As I write these words, I am one month into my new role and finishing up my first sprint.
                 </Collapse>
               </Route>
