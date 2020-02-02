@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/webresume/static/css/main.93dc84e1.chunk.css",
-    "main.js": "/webresume/static/js/main.5b8e487d.chunk.js",
-    "main.js.map": "/webresume/static/js/main.5b8e487d.chunk.js.map",
+    "main.css": "/webresume/static/css/main.69541328.chunk.css",
+    "main.js": "/webresume/static/js/main.e49806fa.chunk.js",
+    "main.js.map": "/webresume/static/js/main.e49806fa.chunk.js.map",
     "runtime-main.js": "/webresume/static/js/runtime-main.8c0c15e3.js",
     "runtime-main.js.map": "/webresume/static/js/runtime-main.8c0c15e3.js.map",
     "static/css/2.833dd627.chunk.css": "/webresume/static/css/2.833dd627.chunk.css",
-    "static/js/2.639aa5e1.chunk.js": "/webresume/static/js/2.639aa5e1.chunk.js",
-    "static/js/2.639aa5e1.chunk.js.map": "/webresume/static/js/2.639aa5e1.chunk.js.map",
+    "static/js/2.ec03d813.chunk.js": "/webresume/static/js/2.ec03d813.chunk.js",
+    "static/js/2.ec03d813.chunk.js.map": "/webresume/static/js/2.ec03d813.chunk.js.map",
     "index.html": "/webresume/index.html",
-    "precache-manifest.3b77186107c46950bdf1fd2162fe4750.js": "/webresume/precache-manifest.3b77186107c46950bdf1fd2162fe4750.js",
+    "precache-manifest.c193b339a6b2fb54aafb7ac0a885ae4e.js": "/webresume/precache-manifest.c193b339a6b2fb54aafb7ac0a885ae4e.js",
     "service-worker.js": "/webresume/service-worker.js",
     "static/css/2.833dd627.chunk.css.map": "/webresume/static/css/2.833dd627.chunk.css.map",
-    "static/css/main.93dc84e1.chunk.css.map": "/webresume/static/css/main.93dc84e1.chunk.css.map",
-    "static/media/Cover Letter of Beder Bourahmah.pdf": "/webresume/static/media/Cover Letter of Beder Bourahmah.dd520a83.pdf",
-    "static/media/Resume of Beder Bourahmah.pdf": "/webresume/static/media/Resume of Beder Bourahmah.5f80aed6.pdf"
+    "static/css/main.69541328.chunk.css.map": "/webresume/static/css/main.69541328.chunk.css.map",
+    "static/media/Florida_International_University_logo.svg": "/webresume/static/media/Florida_International_University_logo.8091ea4c.svg",
+    "static/media/ISOM.png": "/webresume/static/media/ISOM.24bb063b.png",
+    "static/media/KISR.png": "/webresume/static/media/KISR.d6ff7c9d.png",
+    "static/media/SEL.png": "/webresume/static/media/SEL.39343170.png",
+    "static/media/miami-dade-college.png": "/webresume/static/media/miami-dade-college.998131c6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8c0c15e3.js",
     "static/css/2.833dd627.chunk.css",
-    "static/js/2.639aa5e1.chunk.js",
-    "static/css/main.93dc84e1.chunk.css",
-    "static/js/main.5b8e487d.chunk.js"
+    "static/js/2.ec03d813.chunk.js",
+    "static/css/main.69541328.chunk.css",
+    "static/js/main.e49806fa.chunk.js"
   ]
 }
