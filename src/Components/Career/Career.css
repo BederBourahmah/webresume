@@ -1,20 +1,65 @@
-.Career-header {
-  background-color: 	#002B44;
-  color: #EDE5CE;
-  font-size: xx-large;
-  padding-left: 1%;
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400|Oswald:200&display=swap');
+
+.careerMainBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
-.Career-subheader {
-  background-color: 	#002B44;
-  color: #EDE5CE;
-  font-size: x-large;
-  padding-left: 1%;
+.careerLogos {
+  display: flex;
+  flex-direction: row;
+  margin: 1% auto auto auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
 }
 
-.Career-body {
-  background-color: 	#002B44;
+.border {
+  border-style: solid;
+}
+
+.logoLink {
+  min-width: 300px;
+  margin: 1% 0% 1% 0%;
+  width: 30%;
+  height: fit-content;
+}
+.logoLink:hover {
+  background-image: radial-gradient(#29323c 80%, #485563);
+}
+
+.logo {
+  width: 100%;
+  margin: 0;
+}
+
+.careerBody {
   color: #EDE5CE;
-  font-size: large;
-  padding-left: 1%;
+  height: 100%;
+}
+
+.careerJobTitle {
+  font-size: 1.7rem;
+  font-family: 'Merriweather', sans-serif;
+  width: fit-content;
+}
+
+.clickableCareerJobTitle {
+  font-size: 1.7rem;
+  cursor: pointer;
+  font-family: 'Merriweather', sans-serif;
+  width: fit-content;
+}
+
+.clickableCareerJobTitle:hover {
+  background-image: radial-gradient(#29323c 80%, #485563);
+}
+
+.careerJobResponsibilities {
+  font-size: 1.7rem;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 1%;
 }
