@@ -141,8 +141,13 @@ export default class Career extends React.Component<any, IState> {
                   Associate Software Engineer - January 2020 to present
                 </p>
                 <Collapse className="careerJobResponsibilities" isOpen={this.state.isSoftwareEngineerOpen}>
-                  I applied, interviewed, and was accepted for an opening in the FAD team for a software engineer.
-                  As I write these words, I am one month into my new role and finishing up my first sprint.
+                  I applied, interviewed, and was accepted for an opening in the FAD team for an associate software engineer.
+                  In this role I have worked primarily on an internally developed manufacturing execution system.
+                  Working closely with end users at SEL’s state of the art electronics manufacturing facilities and a team of software engineers, we
+                  have added multiple features that have improved quality and productivity.
+                  I have also leveraged my troubleshooting skills acquired from previous roles to quickly identify root cause of reported bugs and
+                  apply effective fixes. Each day in this role further improves my development skills and my mastery of C#, ReactJS, and SQL.
+                  I am also learning about AMQs and Docker containers.
                 </Collapse>
               </Route>
             </div>
