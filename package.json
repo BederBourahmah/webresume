@@ -1,6 +1,6 @@
 {
   "name": "webresume",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": true,
   "homepage": "https://bederbourahmah.github.io/webresume/",
   "dependencies": {
@@ -28,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
