@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26247d1b6493d798ebfa82f98c2baaef",
+    "revision": "4b1e0a3d3e5e5a1df08edd2ce37a8d4b",
     "url": "/webresume/index.html"
   },
   {
-    "revision": "f44a3dfbdc87b7b569c4",
+    "revision": "1547e8ec77cb07b9c47b",
     "url": "/webresume/static/css/2.833dd627.chunk.css"
   },
   {
-    "revision": "9f9f170ecf663637ed23",
-    "url": "/webresume/static/css/main.5bc1170f.chunk.css"
+    "revision": "b3a86aef23def4b7a4d1",
+    "url": "/webresume/static/css/main.eebddc67.chunk.css"
   },
   {
-    "revision": "f44a3dfbdc87b7b569c4",
-    "url": "/webresume/static/js/2.4993d135.chunk.js"
+    "revision": "1547e8ec77cb07b9c47b",
+    "url": "/webresume/static/js/2.c236e5ce.chunk.js"
   },
   {
-    "revision": "9f9f170ecf663637ed23",
-    "url": "/webresume/static/js/main.3c55a853.chunk.js"
+    "revision": "b3a86aef23def4b7a4d1",
+    "url": "/webresume/static/js/main.f4b595bc.chunk.js"
   },
   {
     "revision": "37455ac12ed089fc41c2",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "998131c604e6eaa07c61aa98eeb714e7",
     "url": "/webresume/static/media/miami-dade-college.998131c6.png"
+  },
+  {
+    "revision": "95a2f2b3f6a095b30027fc1637629703",
+    "url": "/webresume/static/media/wsu-logo.95a2f2b3.png"
   }
 ]);
